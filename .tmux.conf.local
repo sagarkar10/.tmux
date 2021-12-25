@@ -389,6 +389,9 @@ tmux_conf_uninstall_plugins_on_reload=true
 #set -g @plugin 'tmux-plugins/tmux-continuum'
 #set -g @continuum-restore 'on'
 
+set -g @plugin 'Morantron/tmux-fingers'
+# default bind Finger was F -> f (custom)
+set -g @fingers-key f
 
 # -- custom variables ----------------------------------------------------------
 
